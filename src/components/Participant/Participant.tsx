@@ -6,7 +6,7 @@ interface ParticipantProps {
     showProfilePicture: boolean;
     data: any;
 }
-
+``
 const Participant: React.FC<ParticipantProps> = ({ stream, showProfilePicture, data }) => {
     const videoRef = useRef<HTMLVideoElement | null>(null);
 
