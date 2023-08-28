@@ -1,0 +1,15 @@
+.border-left {
+    border-right: 1px solid #dadce0;
+}
+
+.btn {
+    border-top-left-radius: 0;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 12px;
+}
