@@ -17,7 +17,7 @@ import MicOffOutlinedIcon from '@mui/icons-material/MicOffOutlined';
 import LockPersonOutlinedIcon from '@mui/icons-material/LockPersonOutlined';
 
 
-interface TEST {
+interface camera {
     onLeaveMeeting: () => void;
     disConnected: () => void;
     pushCamera: (e: any) => void;
@@ -25,7 +25,7 @@ interface TEST {
     open_Sidebar: (e: any) => any;
 }
 
-const Footer: React.FC<TEST> = ({ onLeaveMeeting, disConnected, pushCamera, pushMic, open_Sidebar }) => {
+const Footer: React.FC<camera> = ({ onLeaveMeeting, disConnected, pushCamera, pushMic, open_Sidebar }) => {
     const [currentTime, setCurrentTime] = useState<string>(getTimeString());
     const [camera, setCamera] = useState(false)
     const [mic, setMic] = useState(false)

@@ -211,7 +211,7 @@ const CustomDrawer: React.FC<CustomDrawerProps> = ({ open, handleDrawerClose, op
 export default CustomDrawer;
 
 
-const Message = ({ message }) => {
+const Message = (message: any) => {
     const isBot = message?.sender === "bot";
     return (
         <Box

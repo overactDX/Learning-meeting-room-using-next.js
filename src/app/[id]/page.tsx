@@ -8,9 +8,8 @@ import Accept from '../../components/return/page';
 import Back from '@/components/Back/Back';
 import { useRouter } from 'next/navigation'
 
-type Props = {
-    test: boolean;
-};
+type Props = {};
+
 export default function Report({ }: Props) {
     const router = useRouter()
     const [leaveMeeting, setLeaveMeeting] = useState(true);
